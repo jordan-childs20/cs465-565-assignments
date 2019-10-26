@@ -18,6 +18,12 @@ body {
 
 }
 
+button:hover {
+  background-color: rgb(21, 145, 87);
+  color: blue;
+
+}
+
 .parentForm {
   display: table-cell;
   vertical-align: middle;

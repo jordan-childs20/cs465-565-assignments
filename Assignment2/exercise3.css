@@ -1,0 +1,21 @@
+.list {
+    color:magenta;
+    background-color: blue;
+}
+
+a {
+    color: magenta;
+}
+
+img {
+    max-height: 200px;
+}
+
+.aardvark_photos {
+    background-color: green;
+    border: medium;
+}
+
+.form {
+    background-color: yellow;
+}
