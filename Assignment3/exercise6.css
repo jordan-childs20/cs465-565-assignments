@@ -1,0 +1,45 @@
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+
+}
+
+body {
+    margin: 40px;
+}
+
+.main {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px;
+}
+
+.a {
+    grid-column: 1 / span 2;
+    grid-row:  1 / span 5;
+}
+
+.b {
+    grid-column: 3 / span 4;
+    grid-row: 1 / span 3;
+}
+
+.c {
+    grid-column: 3 / span 4;
+    grid-row: 4;
+}
+
+
+.d {
+    grid-column:  3 / span 4;
+    grid-row:  5;
+}
+
+.e {
+    grid-column: 1 / span 6;
+    grid-row: 6;
+}
