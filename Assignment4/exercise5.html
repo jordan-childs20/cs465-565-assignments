@@ -1,0 +1,15 @@
+<head>
+
+</head>
+
+<body id="bdy">
+    <input id="changeclr" value="Change Color" type="button">
+    <script>
+            document.getElementById("changeclr").onclick = 
+                function changeColor() {
+                    let color = '#' + (Math.random()*0xFFFFFF<<0).toString(16);
+                    document.body.style.backgroundColor = color;
+            }
+    </script>
+
+</body>

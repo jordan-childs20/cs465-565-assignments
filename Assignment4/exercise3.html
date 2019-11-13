@@ -1,0 +1,51 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">        
+    <link rel="stylesheet" type="text/css" href="exercise3.css">
+</head>
+<body>
+    <div class = "parentParent">
+        <div class="parentForm">
+            <div class="row">
+
+                <div class="col">
+
+                </div>
+                <div class="col">
+                    <div class="frm">
+                        <h2>Contact Us</h2>
+                        <form>
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="name" class="form-control" id="name" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email">
+                            </div>
+                            <div class="form-group">
+                                <label for="Comment">Comment</label>
+                                <textarea type="Comment" id="message" class="form-control"></textarea>
+                            </div>
+                            <input  value="Submit" id="submitButton" type="button" class="btn btn-primary">
+                            <button type="reset" class="btn btn-secondary">Reset</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col">
+                </div>
+            </div>    
+        </div>
+    </div>
+    <script type="text/javascript">
+
+        document.getElementById("submitButton").onclick = function display(){
+            var name  = document.getElementById("name").value;
+            var email  = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+            console.log("Name: " + name + "\n" +
+                        "Email: " + email + "\n" +
+                        "Message: " + message);
+        };
+    </script> 
+</body>
+        
