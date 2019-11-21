@@ -61,3 +61,6 @@ typings/
 .next
 
 .vscode
+
+#node packages
+Assignment5/IntroReact/node_modules
